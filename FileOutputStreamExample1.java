@@ -6,7 +6,8 @@ class FileOutputStreamExample1{
 public static void main(String[] arg){
 
 
-try{
+try
+{
 
 FileOutputStream  fout = new FileOutputStream("E:\\Sandbox\\test.txt");
 
