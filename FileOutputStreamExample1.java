@@ -13,8 +13,6 @@ FileOutputStream  fout = new FileOutputStream("E:\\Sandbox\\test.txt");
 fout.write(90);
 fout.close();
 System.out.println("Success");
-
-
 }
 catch(Exception e){
 System.out.println(e);
