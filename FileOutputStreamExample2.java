@@ -7,8 +7,7 @@ class FileOutputStreamExample {
              fout.close();    
              System.out.println("success...");    
             }
-            catch(Exception e){System.out.println(e);}    
-      
+            catch(Exception e){System.out.println(e);}      
       }    
 
  }  
