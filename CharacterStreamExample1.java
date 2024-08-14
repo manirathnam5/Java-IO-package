@@ -20,20 +20,7 @@ while ((charRead=cis.read())!=-1) {
             }  
             
 		}
-
-/*
-            while ((charRead=cis.read())!=-1){
-            	System.out.print((char)charRead +',');
-            }
-        }*/
-       
-
-/* try {  
-            CharArrayReader reader = new CharArrayReader(array);  
-            System.out.print("The characters read from the reader:");  
-            int charRead;  
-*/
-            
+          
 	
 		catch(Exception io){
 
