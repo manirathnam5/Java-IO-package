@@ -14,14 +14,12 @@ class CharacterStreamExample1{
             System.out.println("The character reader from reader");
             int charRead;
 
-
 while ((charRead=cis.read())!=-1) {  
                 System.out.print((char)charRead+",");  
             }  
             
 		}
           
-	
 		catch(Exception io){
 
             	System.out.println(io.getMessage());
