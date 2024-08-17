@@ -9,7 +9,6 @@ class CharacterStreamExample1{
     char[] array = {'H','e','l','l','o'};
 
 		try{
-            
 			CharArrayReader  cis = new CharArrayReader(array);
             System.out.println("The character reader from reader");
             int charRead;
