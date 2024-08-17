@@ -21,7 +21,6 @@ while ((charRead=cis.read())!=-1) {
 		}
           
 		catch(Exception io){
-
             	System.out.println(io.getMessage());
             }
      
