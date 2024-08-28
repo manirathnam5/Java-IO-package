@@ -7,9 +7,7 @@
                  fout.write(65);    
                  fout.close()
                  ;    
-                 
                  System.out.println("success...");    
-                 
                  }
                 catch(Exception e){
                     System.out.println(e);
