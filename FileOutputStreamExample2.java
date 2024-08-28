@@ -5,8 +5,7 @@
                try{    
                  FileOutputStream fout = new FileOutputStream("D:\\testout.txt");    
                  fout.write(65);    
-                 fout.close()
-                 ;    
+                 fout.close();    
                  System.out.println("success...");    
                  }
                 catch(Exception e){
