@@ -11,7 +11,6 @@ class FileOutputStreamExample3 {
         String str = "Welcome to programming";
 
         byte[] bytes = str.getBytes();
-
         fout.write(bytes);
 
         fout.close();
