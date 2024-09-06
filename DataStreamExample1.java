@@ -7,9 +7,7 @@ import java.io.FileInputStream;
             int i=0;    
             while((i=fin.read())!=-1){    
              System.out.print((char)i);    
-            }
-
-            //fin.close(); 
+            } 
             fin.close();    
           }catch(Exception e){System.out.println(e);}    
          }    
